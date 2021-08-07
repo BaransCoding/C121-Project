@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpeg">
+<center>
+  <h3 class="btn-primary heading">Real Time Image Identification App
+
+    <li class="col-sm-4 col-xs-12">
+      <b>Water Bottle - </b>
+      <img src="Water Bottle.jpeg" class="img-responsive">
+    </li>
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+      Output on <br> Google lens
+        <br>
+          <div class="btn heading_div2">
+         Output on <br> MobileNet
+         <br>
+         <div class="col-sm-4 col-xs-12">
+          <h4>Result - </h4>
+          <hr>
+          <h4>   </h4>
+         </div>
+          
+          </div>
+        </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  
+  <p class="btn btn-success result_para_tag">Output on Google lens:
+    <span id="result_object_Googlelens"></span> 
+  </p>
+  
+  <br><br>
+  <p class="btn btn-success result_para_tag">Output on MobileNet:
+    <span id="result_object_MobileNet"></span> 
+  </p>
+
+
+</center>
+
+<div class="copy_right_footer">
+  Developed by - Baran Urgun
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
